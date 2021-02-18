@@ -8,6 +8,7 @@
     <title>明日方舟寻访模拟器</title>
     <script src="js/pixi/pixi.min.js"></script>
     <script src="js/pixi/pixi-spine.js"></script>
+    <script src="js/pixi/pixi-sound.js"></script>
     <script src="js/pixi/charm.js"></script>
     <script src="js/pixi/dust.js"></script>
     <!--<script src="js/three/three.js"></script>
@@ -32,6 +33,16 @@
             src: url("./asstes/fonts/NotoSansHans-Medium.otf") format("opentype");
         }
 
+        @font-face {
+            font-family: 'TeYaSong';
+            src: url("./asstes/fonts/TeYaSong.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: 'NovecentoWide';
+            src: url("./asstes/fonts/Novecento wide UltraLight.otf") format("opentype");
+        }
+
         body {
             font-family: 'Notosanshans-Medium', 'Notosanshans';
             font-size: 48px;
@@ -40,8 +51,7 @@
 </head>
 
 <body style="text-align: center;">
-    <div class="app">
-    </div>
+    <div class="app"></div>
     <!--<script type="module">
         // import * as THREE from './js/three/three.module.js';
 
